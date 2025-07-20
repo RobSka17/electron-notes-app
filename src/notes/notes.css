@@ -1,0 +1,94 @@
+.Notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.Notes::-webkit-scrollbar {
+  display: none;
+}
+
+.Note {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    margin: 0.9rem;
+    padding: 0.85rem 1.25rem;
+    max-width: 14rem;
+    height: 12rem;
+    color: #000000;
+}
+
+.Note textarea {
+    color: #000000;
+    font-size: 1.05rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.Note textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.Note.Salmon {
+    background-color: salmon;
+    color: #000000;
+}
+
+.Note.SkyBlue {
+    background-color: skyblue;
+    color: #000000;
+}
+
+.Note.AquaMarine {
+    background-color: aquamarine;
+    color: #000000;
+}
+
+.Note.Beige {
+    background-color: beige;
+    color: #000000;
+}
+
+.Note.DarkOrange {
+    background-color: darkorange;
+    color: #000000;
+}
+
+.NoteButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 0 0.5rem 0;
+}
+
+.NoteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    width: 0.35rem;
+    height: 0.35rem;
+    margin: 0 0.4rem 0 0.4rem;
+}
+
+.NoteButton:focus {
+    outline: none;
+}
+
+.NoteButton img {
+    width: 1.5rem;
+}
+
+.NoteTimer {
+    font-weight: 700;
+}
