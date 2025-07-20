@@ -1,4 +1,5 @@
 A React/Vite/Electron app for making notes
+
 Note - Not regularly maintained. May include incomplete features.
 
 Running the app:
